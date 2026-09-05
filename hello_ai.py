@@ -10,3 +10,9 @@ try:
 except ValueError: 
     print("Wrong input given ")
 print(f"The sum of {a} and {b} is ",add(a,b))
+def subtract(a,b):
+    if a<b:
+        return "First number is less than second number try again........"
+    else:
+        return f"The subtraction of {a} and {b} is : {a-b}"
+print(subtract(a,b))
