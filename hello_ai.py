@@ -16,3 +16,10 @@ def subtract(a,b):
     else:
         return f"The subtraction of {a} and {b} is : {a-b}"
 print(subtract(a,b))
+def divide(a,b):
+    if b==0:
+        return("Zero division error ")
+        raise ZeroDivisionError
+    else :
+        return f"Division of {a} and {b} is {a/b}"
+print(divide(a,b))
